@@ -62,6 +62,7 @@ just release
 ```
 
 This runs `.build-and-release.sh`, which:
+
 1. Prompts for the next version number
 2. Updates `info.plist` in both the repo and the local Alfred folder
 3. Commits, pushes, and tags — the tag push triggers a GitHub Actions release
